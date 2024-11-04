@@ -17,13 +17,13 @@ pip install pandas numpy torch torchmetrics scikit-learn category-encoders
 ```
 
 ## Notebooks Description
-analysis.ipynb
+### analysis.ipynb
 This notebook conducts a thorough exploratory data analysis (EDA) on the Spaceship Titanic dataset. It provides insights into the data distribution, relationships between features, and potential strategies for feature engineering.
 
-main_ohe.ipynb
+### main_ohe.ipynb
 This notebook implements the neural network model using One-Hot Encoding (OHE) to handle categorical features. The encoding creates binary columns for each category, which can increase the dimensionality of the dataset but can effectively represent the information for certain models.
 
-main_loo.ipynb
+### main_loo.ipynb
 This notebook implements the neural network model using Leave-One-Out Encoding (LOO). In this method, each category's encoding is the mean of the target variable (Transported) for that category, calculated from the training data. This approach is particularly useful for reducing dimensionality and preventing overfitting when dealing with categorical features, especially in cases where categories have varying frequencies.
 
 ## How to Run
@@ -32,16 +32,16 @@ Navigate to the folder containing the notebooks.
 Open the desired notebook in Jupyter Notebook or any compatible environment.
 Run the cells sequentially to reproduce the analysis or model training.
 
-Results
+## Results
 The final predictions can be found in the output of each notebook after running the model. The predictions indicate whether each passenger was transported (True) or not (False).
 Saving the model or the results is commented.
 
-Kaggle Results for Leave One Out encoding method:
+### Kaggle Results for Leave One Out encoding method:
 ![alt text](image_loo.png)
 
-Kaggle Results for One Hot encoding method:
+### Kaggle Results for One Hot encoding method:
 ![alt text](image_ohe.png)
 
-Conclusion
+## Conclusion
 This project showcases the application of various encoding techniques in a neural network context for binary classification tasks. Each encoding method presents unique advantages and trade-offs that can impact model performance.
 
