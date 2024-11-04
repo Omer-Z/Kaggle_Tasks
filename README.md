@@ -17,13 +17,13 @@ pip install pandas numpy torch torchmetrics scikit-learn category-encoders
 ```
 
 ## Notebooks Description
-### analysis.ipynb
+### `analysis.ipynb`
 This notebook conducts a thorough exploratory data analysis (EDA) on the Spaceship Titanic dataset. It provides insights into the data distribution, relationships between features, and potential strategies for feature engineering.
 
-### main_ohe.ipynb
+### `main_ohe.ipynb`
 This notebook implements the neural network model using One-Hot Encoding (OHE) to handle categorical features. The encoding creates binary columns for each category, which can increase the dimensionality of the dataset but can effectively represent the information for certain models.
 
-### main_loo.ipynb
+### `main_loo.ipynb`
 This notebook implements the neural network model using Leave-One-Out Encoding (LOO). In this method, each category's encoding is the mean of the target variable (Transported) for that category, calculated from the training data. This approach is particularly useful for reducing dimensionality and preventing overfitting when dealing with categorical features, especially in cases where categories have varying frequencies.
 
 ## How to Run
