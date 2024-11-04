@@ -37,10 +37,10 @@ The final predictions can be found in the output of each notebook after running 
 Saving the model or the results is commented.
 
 ### Kaggle Results for Leave One Out encoding method:
-![alt text](src\image_loo.png)
+![alt text](image_titanic_spaceshit_loo.png)
 
 ### Kaggle Results for One Hot encoding method:
-![alt text](src\image_ohe.png)
+![alt text](image_titanic_spaceshit_ohe.png)
 
 ## Conclusion
 This project showcases the application of various encoding techniques in a neural network context for binary classification tasks. Each encoding method presents unique advantages and trade-offs that can impact model performance.
